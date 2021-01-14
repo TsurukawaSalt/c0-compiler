@@ -86,39 +86,6 @@ public class Transfer {
             }
         }
     }
-
-//    private List<Byte> Char2bytes(char value) {
-//        List<Byte>  AB=new ArrayList<>();
-//        AB.add((byte)(value&0xff));
-//        return AB;
-//    }
-//
-//    private List<Byte> String2bytes(String valueString) {
-//        List<Byte>  AB=new ArrayList<>();
-//        for (int i=0;i<valueString.length();i++){
-//            char ch=valueString.charAt(i);
-//            AB.add((byte)(ch&0xff));
-//        }
-//        return AB;
-//    }
-//
-//    private List<Byte> long2bytes(int length, long target) {
-//        ArrayList<Byte> bytes = new ArrayList<>();
-//        int start = 8 * (length-1);
-//        for(int i = 0 ; i < length; i++){
-//            bytes.add((byte) (( target >> ( start - i * 8 )) & 0xFF ));
-//        }
-//        return bytes;
-//    }
-//
-//    private ArrayList<Byte> int2bytes(int length,int target){
-//        ArrayList<Byte> bytes = new ArrayList<>();
-//        int start = 8 * (length-1);
-//        for(int i = 0 ; i < length; i++){
-//            bytes.add((byte) (( target >> ( start - i * 8 )) & 0xFF ));
-//        }
-//        return bytes;
-//    }
     
     private void transAddString(String s){
         for (int i = 0; i < s.length(); i++){
